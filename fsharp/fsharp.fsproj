@@ -41,7 +41,7 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cart.fs" />
+    <Compile Include="Logic.fs" />
     <Compile Include="Tests.fs" />
     <None Include="Script.fsx" />
     <None Include="paket.references" />
