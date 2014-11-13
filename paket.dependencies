@@ -1,0 +1,6 @@
+source C:\Users\Serhiy\AppData\Local\NuGet\Cache
+source https://www.nuget.org/api/v2/
+source C:\Users\Serhiy\work\dmt\ndemo\feed
+source C:\Users\Serhiy\work\nugetfeed
+
+nuget Paket 0.13.1
