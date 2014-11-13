@@ -16,7 +16,7 @@ let totalWihoutDiscounts c =
 let createEmpty () =
     {Items = []; DiscountCalculators = []}
 
-let add i a c = 
+let addItem i a c = 
     let is = List.replicate a i
     { c with Items = is @ c.Items }
 
@@ -29,7 +29,9 @@ let getTotal c =
 let applyDiscount d c = { c with DiscountCalculators = d :: c.DiscountCalculators }
 
 let nthIsFree n i c =
-    i.Price * (((c.Items |> List.filter ((=) i) |> List.length) / n) |> float)
+    i.Price * (((c.Items 
+                    |> List.filter ((=) i) 
+                    |> List.length) / n) |> float)
     
 let thirdIsFree = nthIsFree 3
 

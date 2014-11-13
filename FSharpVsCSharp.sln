@@ -3,10 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharp", "fsharp\fsharp.fsproj", "{BA033404-689F-49BF-B17C-360BE0929B4F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FC99D756-B53C-4F6C-9362-0ED1E82AAAD5}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\packages.config = .nuget\packages.config
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp", "csharp\csharp.csproj", "{FC96237D-6EE4-4A29-812F-F569B9A007F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +15,10 @@ Global
 		{BA033404-689F-49BF-B17C-360BE0929B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA033404-689F-49BF-B17C-360BE0929B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA033404-689F-49BF-B17C-360BE0929B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC96237D-6EE4-4A29-812F-F569B9A007F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC96237D-6EE4-4A29-812F-F569B9A007F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC96237D-6EE4-4A29-812F-F569B9A007F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC96237D-6EE4-4A29-812F-F569B9A007F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

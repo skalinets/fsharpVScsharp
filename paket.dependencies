@@ -2,4 +2,6 @@ source C:\Users\Serhiy\AppData\Local\NuGet\Cache
 source https://www.nuget.org/api/v2
 
 nuget Paket 0.13.1
-nuget fsunit			
+nuget fsunit
+nuget xunit
+nuget fluentassertions
